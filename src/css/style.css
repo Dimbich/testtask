@@ -38,7 +38,7 @@ img {
 
 .hero {
   color: #fff;
-  background: url("/src/img/bg_header.png") no-repeat top center #57a804;
+  background: url("../img/bg_header.png") no-repeat top center #57a804;
 }
 
 .hero .tagline {
