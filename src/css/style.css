@@ -186,4 +186,14 @@ img {
 .embargo__text p {
   margin: 0;
 }
+
+.pack {
+  font-size: 54px;
+  background-color: #fe7600;
+}
+
+.pack img {
+  display: block;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */

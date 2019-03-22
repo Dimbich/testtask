@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,SAAS,EAAE,IAAI;CAGM;;AAJvB,AAEE,KAFG,CAEH,GAAG,CAAC;EACF,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,MAAM;CAAG",
+    "sources": [
+        "../sass/blocks/pack.sass"
+    ],
+    "names": [],
+    "file": "pack.css"
+}
