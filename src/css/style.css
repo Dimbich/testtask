@@ -190,10 +190,38 @@ img {
 .pack {
   font-size: 54px;
   background-color: #fe7600;
+  height: 779px;
+  background: url("../img/pack.jpg") #fe7600 no-repeat center top;
 }
 
-.pack img {
-  display: block;
-  margin: 0 auto;
+.nastalge {
+  color: #fff;
+  background-color: #5fb00c;
+}
+
+.nastalge-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+.nastalge-block div:first-of-type {
+  margin-top: 115px;
+}
+
+.nastalge-block img:last-of-type {
+  margin-top: -300px;
+  padding-bottom: 53px;
+}
+
+.nastalge-block .descrip {
+  -ms-flex-preferred-size: 56%;
+      flex-basis: 56%;
 }
 /*# sourceMappingURL=style.css.map */
