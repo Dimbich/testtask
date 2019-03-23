@@ -8,9 +8,13 @@
   <link rel="stylesheet" href="./src/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
   <style>
-  .swiper-container {
+  /* .swiper-container {
     width: 100%;
     height: 100%;
+  } */
+  .swiper-slide img{
+    width: 1247px;
+    height: auto;
   }
 
   </style>
@@ -121,28 +125,39 @@
   <section class="slider">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-
-          <img src="./src/img/slide1.png" style="display: block" class="swiper-slide" alt="slide1">
-
-
-          <img src="./src/img/slide2.png" style="display: block" class="swiper-slide" alt="slide2">
-
-
-          <img src="./src/img/slide3.png" style="display: block" class="swiper-slide" alt="slide3">
-
+      <div class="swiper-slide"><img src="./src/img/slide1.png" alt="slide1"></div>
+      <div class="swiper-slide"><img src="./src/img/slide2.png" alt="slide2"></div>
+      <div class="swiper-slide"><img src="./src/img/slide3.png" alt="slide3"></div>
       </div>
       <!-- <div class="swiper-pagination"></div> -->
     </div>
+  </section>
+
+  <section class="burger">
+    <div class="burger_img">
+      <img src="./src/img/parlo.png" alt="parlo">
+    </div>
+    <div class="container">
+      <a href="#">
+        <div class="showproject">
+          <p>смотреть проект</p>
+        </div>
+      </a>
+
+    </div>  
   </section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
   <script>
       var swiper = new Swiper('.swiper-container', {
         initialSlide: 1,
-        slidesPerView: 1.3,
+        slidesPerView: 1.4,
         centeredSlides: true,
         spaceBetween: 0,
-        width: 1247,
-        height: 763,
+        // loop: true,
+        // autoplay: {
+        //   delay: 3000,
+        // },
+        
       });
   </script>  
 </body>
