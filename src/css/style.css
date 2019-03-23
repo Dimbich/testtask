@@ -194,6 +194,14 @@ img {
   background: url("../img/pack.jpg") #fe7600 no-repeat center top;
 }
 
+.slider .swiper-slide img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
 .nastalge {
   color: #fff;
   background-color: #5fb00c;
